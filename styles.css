@@ -1,0 +1,128 @@
+body{
+    background-color: black;
+}
+.conainer{
+    height: 100vh;
+    background-color: black;
+    
+}
+.main{
+    height: 100vh;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;    
+    justify-content: center;
+    margin: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.left-div{
+    
+    margin-right: 25px;
+    width: 200px;
+    height: 400px;
+    background-color: black;
+    
+}
+.card1-Top{
+    background-color: #5746ea;
+    height: 250px;
+    width: 175px;
+    border-radius: 20px;
+    margin-bottom: -40px;
+    position: relative;
+    color: white;
+    padding-top: 24px;
+    padding-left: 25px;
+
+}
+.card1-Top p{
+    margin-bottom: -15px;
+}
+.card1-Bottom{
+    background-color: #1d204b;
+    color: aliceblue;
+    height: 97px;
+    width: 175px;
+    margin-top: -30px;
+    padding-top: 60px;
+    display: inline-block;
+    border-radius: 15px;
+    padding-left: 25px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+/* text act like checkbox starts */
+label {
+    color: rgb(182, 182, 182);
+}
+
+input {
+    display: none;
+}
+
+input[type=checkbox]:checked + label {
+    color: rgb(255, 255, 255);
+}
+/* text act like checkbox ends*/
+.card1-Top img{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.right-div{
+    background-color: black;
+    width: 635px;
+    height: 400px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.card2-Top{
+    height: 60px;
+    width: 200px;
+    display: inline-block;
+    
+}
+.card2-Top img{
+    height: 60px;
+    width: 200px;
+    border-radius: 13px;
+}
+.card2-bottom{
+    height: 165px;
+    width: 180px;
+    background-color: #1d204b;
+    position: relative;
+    border-radius: 20px;
+    margin-top: -40px;
+    padding-bottom: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding-left: 20px;
+}
+button{
+    color: white;
+    padding-right: 20px;
+}
+.gray{
+   color:rgb(182, 182, 182)
+}
+.cb-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cb-top button{
+    border-radius: 20%;
+    border: none;   
+    background-color: transparent;
+}
